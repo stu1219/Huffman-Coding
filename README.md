@@ -25,18 +25,18 @@ A Java implementation of the Huffman coding algorithm for text compression and d
 
 ## Usage
 java
-// Create Huffman tree
+- // Create Huffman tree
 char[] chars = {'a', 'b', 'c'};
 int[] freqs = {5, 2, 3}; 
 HuffmanCode huffman = new HuffmanCode(chars, freqs);
 
-// Print codes
+- // Print codes
 huffman.printCodeWords();
 
-// Encode text
+- // Encode text
 String encoded = (String) huffman.encode("abc");
 
-// Decode text 
+- // Decode text 
 String decoded = (String) huffman.decode(encoded);
 
 ## Implementation Details
